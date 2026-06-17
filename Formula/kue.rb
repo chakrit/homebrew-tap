@@ -17,10 +17,10 @@ class Kue < Formula
   desc "Lean 4 reimplementation of the CUE language"
   homepage "https://github.com/chakrit/kue"
   license "MIT"
-  version "0.1.0-alpha.20260617"
+  version "0.1.0-alpha.20260617.2"
 
-  url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260617/kue-aarch64-apple-darwin"
-  sha256 "8a9b6ec21d5b6111f158b228f0ec186bfcf795f288eb697dd9a478d71187a8c5"
+  url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260617.2/kue-aarch64-apple-darwin"
+  sha256 "3d5be5859aa09800f1279fac097818578245e94ec7b5e8a34fd4a65f2b38c3d8"
 
   depends_on arch: :arm64
   depends_on :macos
