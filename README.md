@@ -8,9 +8,10 @@ brew install chakrit/tap/<formula>
 
 ## Formulae
 
-| Formula | Status |
-| ------- | ------ |
-| `kue`   | Pending first release (`v0.1.0`). Formula's `url`/`sha256` are placeholders until the release asset is published — see [kue release notes](https://github.com/chakrit/kue/blob/main/docs/notes/2026-06-16-release-and-homebrew-setup.md). |
+| Formula      | Status |
+| ------------ | ------ |
+| `kue`        | Pending first release (`v0.1.0`). Formula's `url`/`sha256` are placeholders until the release asset is published — see [kue release notes](https://github.com/chakrit/kue/blob/main/docs/notes/2026-06-16-release-and-homebrew-setup.md). |
+| `fastermail` | Pending first release (`v0.1.0`). Formula's `url`/`sha256` are placeholders until the release asset is published — see [releasing fastermail](https://github.com/chakrit/fastermail/blob/main/docs/guides/releasing.md). |
 
 Once kue cuts `v0.1.0`, install with:
 
