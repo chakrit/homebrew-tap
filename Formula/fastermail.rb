@@ -16,10 +16,10 @@ class Fastermail < Formula
   desc "FastMail CLI and MCP server (JMAP) — email, contacts, masked email"
   homepage "https://github.com/chakrit/fastermail"
   license "MIT"
-  version "0.0.0"
+  version "0.1.0"
 
-  url "https://github.com/chakrit/fastermail/releases/download/v0.0.0/fm-aarch64-apple-darwin"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/chakrit/fastermail/releases/download/v0.1.0/fm-aarch64-apple-darwin"
+  sha256 "a66f68bde93a6fc674a4103bfe1601631ad2705b1922b35234d34a04376ba191"
 
   depends_on arch: :arm64
   depends_on :macos
