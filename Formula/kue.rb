@@ -25,8 +25,8 @@ class Kue < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260622/kue-aarch64-apple-darwin"
-      sha256 "9858907c861d773c363fd89007c24291c8677e7c9260c67f514303e3bc5c4cc2"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260623/kue-aarch64-apple-darwin"
+      sha256 "5d69113fa17402a0aa8327e430780bd71c4d770d98a3c66517448d44de7f4b36"
 
       def install
         bin.install "kue-aarch64-apple-darwin" => "kue"
@@ -36,8 +36,8 @@ class Kue < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260622/kue-x86_64-unknown-linux-gnu"
-      sha256 "0372dba44ec65a2531c74b7ad98a0bd9dcda3926d743a917361f866493264de6"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260623/kue-x86_64-unknown-linux-gnu"
+      sha256 "2eb3b4e43082ee02903e7d46261cc0af6d7cef43f8a151466df83590180f8384"
 
       def install
         bin.install "kue-x86_64-unknown-linux-gnu" => "kue"
@@ -45,8 +45,8 @@ class Kue < Formula
     end
 
     on_arm do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260622/kue-aarch64-unknown-linux-gnu"
-      sha256 "733870d5b13e919b51d2663b6988b128d274482c87a69ca55f3170f2010d84fc"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260623/kue-aarch64-unknown-linux-gnu"
+      sha256 "1f87b942028a768847d0d1ad5d855815b7a0e073f5595108bb905966df38153a"
 
       def install
         bin.install "kue-aarch64-unknown-linux-gnu" => "kue"
