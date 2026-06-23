@@ -21,7 +21,7 @@ class Kue < Formula
   desc "Lean 4 reimplementation of the CUE language"
   homepage "https://github.com/chakrit/kue"
   license "MIT"
-  version "0.1.0-alpha.20260622"
+  version "0.1.0-alpha.20260623"
 
   on_macos do
     on_arm do
