@@ -36,8 +36,8 @@ class Kue < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260624/kue-x86_64-unknown-linux-gnu"
-      sha256 "9e97a2a1fce2c8a9634f86e7a8bf75597cb65c481d4e06848f475bb87cd23e78"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260702/kue-x86_64-unknown-linux-gnu"
+      sha256 "c6925693b7f31a8a7536e44352c782cb571752c612d758049daf6ccb5bd3786f"
 
       def install
         bin.install "kue-x86_64-unknown-linux-gnu" => "kue"
@@ -45,8 +45,8 @@ class Kue < Formula
     end
 
     on_arm do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260624/kue-aarch64-unknown-linux-gnu"
-      sha256 "b4f85da3621dbfb86a625bd07b8eb270feea3a1ecc93f15c062c64fc92f2571e"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260702/kue-aarch64-unknown-linux-gnu"
+      sha256 "187bc28ea6714e2d99a39ed623701cbe7049c6272763ceb57201fc583126741d"
 
       def install
         bin.install "kue-aarch64-unknown-linux-gnu" => "kue"
