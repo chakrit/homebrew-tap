@@ -21,12 +21,12 @@ class Kue < Formula
   desc "Lean 4 reimplementation of the CUE language"
   homepage "https://github.com/chakrit/kue"
   license "MIT"
-  version "0.1.0-alpha.20260705"
+  version "0.1.0-alpha.20260705.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260705/kue-aarch64-apple-darwin"
-      sha256 "2f43e49b09085386ae50e75d84d9c3b80f4e91e255fb93268b920c3c0a83a244"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260705.1/kue-aarch64-apple-darwin"
+      sha256 "b09c4e966d1108f35e0b3807e3e314901a5954ba658218bf6419e20566bb2f36"
 
       def install
         bin.install "kue-aarch64-apple-darwin" => "kue"
