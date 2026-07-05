@@ -45,8 +45,8 @@ class Kue < Formula
     end
 
     on_arm do
-      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260702/kue-aarch64-unknown-linux-gnu"
-      sha256 "187bc28ea6714e2d99a39ed623701cbe7049c6272763ceb57201fc583126741d"
+      url "https://github.com/chakrit/kue/releases/download/v0.1.0-alpha.20260705/kue-aarch64-unknown-linux-gnu"
+      sha256 "f55fc9b0ed27ea2e1b59feedd9d2b17bf6304010c308a9fa7c07c91f39f14f2a"
 
       def install
         bin.install "kue-aarch64-unknown-linux-gnu" => "kue"
